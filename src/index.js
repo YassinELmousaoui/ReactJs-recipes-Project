@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { BrowserRouter,Route,Switch } from 'react-router-dom';
+import Recipes from './ui/recipes';
+import Ingredients from './ui/ingredients';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <div className="myHeader">
+      RECIPES EVER-DAY
+    </div>
+    <Switch>
+    <Route path="/ingredients/:id" component={Ingredients}/>
+    <Route path="/">
+      <Recipes/>
+    </Route>
+    </Switch>
+    <footer>
+      made by yassine elmousaoui 2020
+    </footer>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+

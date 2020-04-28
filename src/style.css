@@ -1,0 +1,98 @@
+body {
+    background-image: radial-gradient(circle, #D9BF62 0%, #B39736 80%);;
+    
+    font-family: Arial;
+    padding: 0%;
+    margin: 0%;
+}
+.myHeader{  
+    display:inline-block;
+    width:100%;
+    height: 70px;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5px;
+    color: whitesmoke;
+    font-family: Brush Script MT, cursive;
+    text-shadow: 2px 2px 2px rgb(48, 45, 8);
+    background-color:#665000;
+}
+.CardsContainer{
+    width: 95%;
+    padding:  20px ;
+    margin: 0px auto;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.card{
+    height: 150px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgba(255, 227, 126, 0.37);
+    box-shadow: 2px 2px 5px rgba(48, 40, 12, 0.5);
+    display: inline-block;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.detailContainer{
+    background-color:rgba(72,72,72,0.4);
+	padding:35px;
+	width: 70%;
+	position: relative;
+	margin: 30px auto;
+    border-radius: 7px;
+}
+footer{
+    bottom: 10px;
+    position: relative;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.btn-group{
+    width: 100%;
+}
+.ingredientItem {
+    background-color: transparent;
+    font: 18px sans-serif;
+}
+.ingredientName{
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.detailDiscription{
+    border-bottom: 2px solid;
+    margin-left: 40px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.detailName{
+    color:white;
+    margin-bottom: 10px;
+}
+.addRecipe{
+    border: 1px solid #4F4218;
+    font-size: 1.5rem;
+    width: 500px;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    background: #b09258;
+    color: black;
+    border-radius: 43px;
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
