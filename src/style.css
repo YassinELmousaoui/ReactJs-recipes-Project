@@ -13,7 +13,7 @@ body {
     text-align: center;
     padding-top: 5px;
     color: whitesmoke;
-    font-family: Brush Script MT, cursive;
+    font-family: 'Caveat', cursive;
     text-shadow: 2px 2px 2px rgb(48, 45, 8);
     background-color:#665000;
 }
@@ -21,7 +21,6 @@ body {
     width: 95%;
     padding:  20px ;
     margin: 0px auto;
-    justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -53,13 +52,7 @@ body {
 	margin: 30px auto;
     border-radius: 7px;
 }
-footer{
-    bottom: 10px;
-    position: relative;
-    left: 50%;
-    margin-top: 25px;
-    margin-left: -80px;
-}
+
 .btn-group{
     width: 100%;
 }

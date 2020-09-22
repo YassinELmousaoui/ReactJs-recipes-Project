@@ -17,9 +17,6 @@ ReactDOM.render(
       <Recipes/>
     </Route>
     </Switch>
-    <footer>
-      made by yassine elmousaoui 2020
-    </footer>
   </BrowserRouter>,
   document.getElementById('root')
 );
